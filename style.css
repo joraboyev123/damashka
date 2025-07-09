@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fefcf7;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fefcf7;
+  }
+  
+  .navbar .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #4d3319;
+  }
+  
+  .navbar nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #888;
+    font-weight: bold;
+  }
+  
+  .hero {
+    display: flex;
+    background-color: #fdd9b8;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 400px;
+  }
+  
+  .btn {
+    background-color: #0e8784;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .collection {
+    padding: 4rem 2rem;
+    background-color: #fefcf7;
+    text-align: center;
+  }
+  
+  .collection h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .product img {
+    width: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
